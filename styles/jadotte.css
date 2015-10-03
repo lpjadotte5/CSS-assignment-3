@@ -7,7 +7,7 @@
 body {
     background: #b3dbe8;
     color: #000;
-    font-family: sans-serif; /*   add fonts here   */
+    font-family:'Merriweather', Georgia, Times New Roman, serif; /*   add fonts here   */
     font-size: 100%; /* DO NOT change */
     margin: 0; /* DO NOT change */
 }
@@ -48,7 +48,7 @@ aside {
 
 h1, h2 {
     margin: 0;
-    font-family: serif;  /*   add fonts here   */
+    font-family:'Lato', Impact, Tahoma, sans-serif;  /*   add fonts here   */
 }
 
 article h1 {
@@ -109,5 +109,11 @@ aside a:focus, aside a:hover {
 .clearfix {
     clear: both;
 }
+
+{
+
+@media (max-width: 600px) {
+	body { margin: 0; }
+	#container { border-width: 0; }
 
 /* media queries */
